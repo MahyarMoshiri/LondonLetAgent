@@ -1,0 +1,14 @@
+{
+  "listing_item_container": "article[data-q='search-result']",
+  "listing_details_link": "a[data-q='search-result-anchor']",
+  "listing_title": "div[data-q='tile-title']",
+  "listing_description_spans": "div[data-q='tile-description'] span",
+  "listing_location": "div[data-q='tile-location']",
+  "listing_price": "div[data-testid='price']",
+  "listing_posted_date": "div[data-q='tile-datePosted']",
+  "next_page_button": "a[data-testid='pagination-next-link']",
+  "zero_results_indicator": "div[data-testid='no-results-message'], p.search-header-results-not-found, div[data-q='no-search-results']",
+  "captcha_indicator": "#g-captcha-container, iframe[title*='reCAPTCHA'], div.geetest_holder",
+  "cookie_banner_accept_button": "#onetrust-accept-btn-handler, button[data-testid='gdpr-banner-accept'], button[data-testid='accept_btn']"
+}
+

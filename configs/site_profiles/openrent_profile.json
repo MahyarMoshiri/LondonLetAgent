@@ -1,0 +1,17 @@
+{
+  "name": "OpenRent",
+  "base_search_url": "https://www.openrent.co.uk/properties-to-rent/",
+  "location_parameter_type": "path_segment",
+  "location_format_preference": "city_or_postcode_area",
+  "keywords_parameter": "term",
+  "price_min_parameter": "minPrice",
+  "price_max_parameter": "maxPrice",
+  "bedrooms_min_parameter": "minBedrooms",
+  "property_type_parameter": "propertyType",
+  "search_heuristics": [
+    "If general location fails, try more specific postcodes if available from AI.",
+    "OpenRent handles broad terms relatively well for location."
+  ],
+  "notes": "Selector and parameter names need to be verified by inspecting OpenRent search functionality."
+}
+

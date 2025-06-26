@@ -1,0 +1,31 @@
+{
+  "name": "SpareRoom",
+  "base_search_url": "https://www.spareroom.co.uk/flatshare/search.pl",
+  "query_parameters": {
+    "flatshare_type": "offered",
+    "search_results_page_size": "100",
+    "per": "pcm",
+    "search": "",
+    "min_rent": "",
+    "max_rent": "",
+    "property_type": "",
+    "advertiser_type": ""
+  },
+  "location_format_preference": "area_name_or_postcode_with_keywords_in_search_param",
+  "property_type_mapping": {
+    "flat": "F",
+    "house": "H",
+    "studio": "S"
+  },
+  "advertiser_type_mapping": {
+    "private_only": ["L", "R", "N"],
+    "agents_only": ["A"]
+  },
+  "search_heuristics": [
+    "The 'search' parameter is key and often combines location with primary keywords (e.g., 'NW9 studio 0 bed').",
+    "If 'private_only' is true, AI should ensure 'advertiser_type' is set appropriately (e.g., by excluding 'A' or including 'L','R','N').",
+    "SpareRoom has distinct advertiser types; leverage this for private landlord filtering."
+  ],
+  "notes": "Parameter names, property type codes, and advertiser type codes need precise verification by examining SpareRoom's advanced search and URL structure."
+}
+

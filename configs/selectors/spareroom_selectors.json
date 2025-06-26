@@ -1,0 +1,13 @@
+{
+  "listing_item_container": "li.listing-result",
+  "listing_title_link": "a.listing-link", 
+  "listing_price": "strong.listing-price",
+  "listing_location": "span.listing-location",
+  "listing_bedrooms": "", 
+  "next_page_button": "a.next-page", 
+  "zero_results_indicator": ".no_results", 
+  "cookie_banner_accept_button": "#onetrust-accept-btn-handler",
+  "detail_page_features_container": "ul.feature-list",
+  "detail_page_description": "div.property-description",
+  "detail_page_poster_name_element": "a.advertiser-link"
+}

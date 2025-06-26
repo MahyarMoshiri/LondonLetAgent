@@ -1,0 +1,15 @@
+{
+  "listing_item_container": "div.property-list > div.pli.clickable",
+  "listing_title_link": "div.licontent a[href*='property-to-rent/'], div.licontent a[href*='room-to-rent/'], div.image-container-link > a",
+  "listing_price": "div.licontent span.price, div.licontent div.price, div.price-exp p.price strong",
+  "listing_location": "div.licontent span.address, div.licontent div.address, a.property-title span.address",
+  "listing_description_snippet": "div.licontent p.description, div.licontent div.description",
+  "listing_bedrooms": "div.licontent span[aria-label*='bedroom'], div.licontent li[class*='bedroom'], div.bottom-of-listing-details span:nth-child(1)",
+  "listing_bathrooms": "div.licontent span[aria-label*='bathroom'], div.licontent li[class*='bathroom'], div.bottom-of-listing-details span:nth-child(2)",
+  "listing_availability": "div.licontent span.available-from, div.licontent div.available-from",
+  "listing_poster_name": "div.licontent div.landlord-name, div.licontent span.landlord-name",
+  "zero_results_indicator": ".search-no-results, div.no-properties-message, #propertylist > div > p.text-center, div.ldpsect > p.text-center",
+  "captcha_indicator": "#recaptcha_challenge, div.g-recaptcha, iframe[title='reCAPTCHA'], div[id='captcha-container']",
+  "cookie_banner_accept_button": "#CybotCookiebotDialogBodyButtonAccept, button.coi-banner__accept"
+}
+

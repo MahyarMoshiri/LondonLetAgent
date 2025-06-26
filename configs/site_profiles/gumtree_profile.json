@@ -1,0 +1,32 @@
+{
+  "name": "Gumtree",
+  "base_search_url": "https://www.gumtree.com/search",
+  "query_parameters": {
+    "search_category": "property-to-rent",
+    "search_location": "", 
+    "q": "", 
+    "min_price": "",
+    "max_price": "",
+    "property_type": "", 
+    "bedrooms": "", 
+    "seller_type": ""
+  },
+  "location_format_preference": "postcode_prefix_or_named_area", 
+  "property_type_mapping": {
+    "flat": "flat",
+    "house": "house",
+    "studio": "flat"
+  },
+  "seller_type_options": {
+    "private_only": "private",
+    "agents_only": "business", 
+    "all": ""
+  },
+  "search_heuristics": [
+    "If general location (e.g., 'North West London') yields poor results, AI should suggest breaking it down into specific postcode prefixes (e.g., 'NW1', 'NW2') or smaller recognized areas.",
+    "For 'studio', use property_type 'flat' and keyword 'studio'.",
+    "Utilize 'seller_type=private' if user requests private landlords."
+  ],
+  "notes": "Parameter names and specific values (like for property_type, bedrooms) need to be confirmed by inspecting Gumtree's search URL structure after performing manual searches."
+}
+
