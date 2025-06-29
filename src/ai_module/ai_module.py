@@ -6,7 +6,10 @@ from typing import Optional, Dict, Any, List
 
 # --- .env Loading & OpenAI Client Initialization ---
 # Construct the path to the .env file assuming it's in the project root
-project_root_for_env = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# (file is now in src/ai_module/, so we need to go up three levels)
+project_root_for_env = os.path.dirname(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+)
 dotenv_path = os.path.join(project_root_for_env, ".env")
 
 loaded_env = load_dotenv(dotenv_path)
